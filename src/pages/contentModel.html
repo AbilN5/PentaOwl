@@ -1,24 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>ContentPageModel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lesson Page Model</title>
+    <link rel="stylesheet" type="text/css" href="styleLessonModel.css">
 </head>
-<body>
-    <header>
+<body class="Body">
+    
+    <header class="Header">
         <!-- Container for the header content, e.g., site title, navigation -->
+        <nav class="MainNavigation">
+            <!-- Container for main pages navigation -->            
+        </nav>
+
+        <hgroup class="HeaderHGroup">
+            <!-- Container for page header -->
+            <h1 class="HeaderH1">
+                <!-- Title -->
+            </h1>
+            <h2 class="HeaderH2">
+                <!-- Subtitle -->
+            </h2>
+        </hgroup>
     </header>
     
-    <main>
-        <!-- Container for the main content of the page -->
-        <section>
-            <!-- Content section 1 -->
-        </section>
-        <section>
-            <!-- Content section 2 -->
-        </section>
+    <main class="Main">
+        <!-- Container for Page Content-->
+        <article class="ContentArticle">
+            <!-- Written content of the Lesson/Page -->
+        </article>
     </main>
     
-    <footer>
+    <div class="ContentNavigation">
+        <!-- Container for Navigation through discipline/section/lesson -->
+        <nav class="DisciplinesNavigation">
+            <ol class="DisciplineList">
+                <li>
+                    <ol class="SectionList">
+                        <li>
+                            <ol class="LessonList">
+                                <li></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </nav>
+    </div>
+    <footer class="Footer">
         <!-- Container for the footer content -->
     </footer>
 </body>
